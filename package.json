@@ -1,0 +1,29 @@
+{
+  "name": "scripts6",
+  "version": "0.0.1",
+  "author": "@esaud17",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esaud17/ES6.git"
+  },
+  "dependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4"
+  },
+  "scripts": {
+    "build": "browserify -t babelify app.js > module.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Esaud17/ES6/issues"
+  },
+  "homepage": "https://github.com/Esaud17/ES6#readme",
+  "description": "learning emac script 6",
+  "main": "app.js",
+  "devDependencies": {},
+  "keywords": [
+    "javascript",
+    "new",
+    "model"
+  ],
+  "license": "ISC"
+}
